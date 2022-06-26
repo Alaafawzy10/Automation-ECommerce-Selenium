@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-26T20:10:57 EET" name="All Test Suite" finished-at="2022-06-26T20:14:52 EET" duration-ms="235516">
+    <groups>
+    </groups>
+    <test started-at="2022-06-26T20:10:57 EET" name="/Users/alaafawzy/IdeaProjects/Automation Ex1" finished-at="2022-06-26T20:14:52 EET" duration-ms="235516">
+      <class name="ProductsDeals">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:11:52 EET" name="BeforeMethod" finished-at="2022-06-26T20:11:55 EET" duration-ms="2709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyAllProductsAndProductDetailPage()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:11:55 EET" name="VerifyAllProductsAndProductDetailPage" description="Given I&#039;m on the home Page and I Need to Navigate to All Products Page , Then I Need To view the Details of the first product and Check that the details is displayed" finished-at="2022-06-26T20:12:11 EET" duration-ms="15855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllProductsAndProductDetailPage -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:12:11 EET" name="AfterMethod" finished-at="2022-06-26T20:12:11 EET" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:12:11 EET" name="BeforeMethod" finished-at="2022-06-26T20:12:14 EET" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyProductQuantityInCart()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:12:14 EET" name="VerifyProductQuantityInCart" description="Given I&#039;m on the home Page and I Need to Navigate to All Products Page ,Then I Need To add 4 items from the Second Product  , Then I Need to View cart page to verify the Product&#039;s quantity is correct" finished-at="2022-06-26T20:12:29 EET" duration-ms="15791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductQuantityInCart -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:12:29 EET" name="AfterMethod" finished-at="2022-06-26T20:12:30 EET" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:12:30 EET" name="BeforeMethod" finished-at="2022-06-26T20:12:32 EET" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="VerifyAddProductsInCart()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:12:32 EET" name="VerifyAddProductsInCart" description="Given I&#039;m on the home Page and I Need to Navigate to All Products Page , Then I Need To add the First and Second Product , Then I Need to View cart page to verify the details are correct" finished-at="2022-06-26T20:13:09 EET" duration-ms="36659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddProductsInCart -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:13:09 EET" name="AfterMethod" finished-at="2022-06-26T20:13:09 EET" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:13:09 EET" name="BeforeMethod" finished-at="2022-06-26T20:13:12 EET" duration-ms="2852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="PlaceOrderRegisterWhileCheckout()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:13:12 EET" name="PlaceOrderRegisterWhileCheckout" description="Given I&#039;m on the home Page and I Need to Navigate to All Products Page ,Then I Need To add the First Product  ,Then Register New Account While I Proceed To Check out After I submitted the order I will download the invoice and verify that it is downloaded successfully" finished-at="2022-06-26T20:14:06 EET" duration-ms="53961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderRegisterWhileCheckout -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:14:06 EET" name="AfterMethod" finished-at="2022-06-26T20:14:06 EET" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:14:06 EET" name="BeforeMethod" finished-at="2022-06-26T20:14:08 EET" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="PlaceOrderLoginBeforeCheckout()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:14:08 EET" name="PlaceOrderLoginBeforeCheckout" description="Given I&#039;m on the home Page and I Need to Navigate to All Products Page ,Then I Need To add the First Product  ,Then Login To my account While I Proceed To Check out After I submitted the order I will download the invoice and verify that it is downloaded successfully" finished-at="2022-06-26T20:14:40 EET" duration-ms="31807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderLoginBeforeCheckout -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:ProductsDeals@6ab7a896]" started-at="2022-06-26T20:14:40 EET" name="AfterMethod" finished-at="2022-06-26T20:14:40 EET" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- ProductsDeals -->
+      <class name="ContactUsForm">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:ContactUsForm@327b636c]" started-at="2022-06-26T20:14:40 EET" name="BeforeClass" finished-at="2022-06-26T20:14:49 EET" duration-ms="8885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="ContactUs()[pri:0, instance:ContactUsForm@327b636c]" started-at="2022-06-26T20:14:49 EET" name="ContactUs" description="Given I&#039;m on the home Page and I Need to Send an Inquiry through the Contact Us Page" finished-at="2022-06-26T20:14:52 EET" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:ContactUsForm@327b636c]" started-at="2022-06-26T20:14:52 EET" name="AfterClass" finished-at="2022-06-26T20:14:52 EET" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- ContactUsForm -->
+      <class name="Login">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Login@15761df8]" started-at="2022-06-26T20:11:31 EET" name="BeforeClass" finished-at="2022-06-26T20:11:38 EET" duration-ms="7111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="LoginUserWithCorrectEmailAndPassword(java.lang.String,java.lang.String)[pri:0, instance:Login@15761df8]" started-at="2022-06-26T20:11:38 EET" name="LoginUserWithCorrectEmailAndPassword" description="Given I&#039;m on the home Page and I Need Login User With Correct Email And Password" data-provider="LoginProvider" finished-at="2022-06-26T20:11:44 EET" duration-ms="6273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dd489@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101010A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserWithCorrectEmailAndPassword -->
+        <test-method signature="LoginUserWithCorrectEmailAndPassword(java.lang.String,java.lang.String)[pri:0, instance:Login@15761df8]" started-at="2022-06-26T20:11:44 EET" name="LoginUserWithCorrectEmailAndPassword" description="Given I&#039;m on the home Page and I Need Login User With Correct Email And Password" data-provider="LoginProvider" finished-at="2022-06-26T20:11:49 EET" duration-ms="5117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d489@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101010A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserWithCorrectEmailAndPassword -->
+        <test-method signature="LoginUserWithIncorrectEmailAndPassword(java.lang.String,java.lang.String)[pri:0, instance:Login@15761df8]" started-at="2022-06-26T20:11:49 EET" name="LoginUserWithIncorrectEmailAndPassword" description="Given I&#039;m on the home Page and I Need Login User With Incorrect Email And Password Then Check the System will deny that " data-provider="LoginProvider" finished-at="2022-06-26T20:11:51 EET" duration-ms="1705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[olmahmoud489@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10A10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserWithIncorrectEmailAndPassword -->
+        <test-method signature="LoginUserWithIncorrectEmailAndPassword(java.lang.String,java.lang.String)[pri:0, instance:Login@15761df8]" started-at="2022-06-26T20:11:51 EET" name="LoginUserWithIncorrectEmailAndPassword" description="Given I&#039;m on the home Page and I Need Login User With Incorrect Email And Password Then Check the System will deny that " data-provider="LoginProvider" finished-at="2022-06-26T20:11:52 EET" duration-ms="1161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a498@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101010A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserWithIncorrectEmailAndPassword -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Login@15761df8]" started-at="2022-06-26T20:11:52 EET" name="AfterClass" finished-at="2022-06-26T20:11:52 EET" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- Login -->
+      <class name="RegistrationUser">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:RegistrationUser@3c153a1]" started-at="2022-06-26T20:10:57 EET" name="BeforeClass" finished-at="2022-06-26T20:11:10 EET" duration-ms="12887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="RegisterNewUser()[pri:0, instance:RegistrationUser@3c153a1]" started-at="2022-06-26T20:11:10 EET" name="RegisterNewUser" description="Given I&#039;m on the home Page and I Need Register A New User" finished-at="2022-06-26T20:11:29 EET" duration-ms="18800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterNewUser -->
+        <test-method signature="RegisterUserWithExistingEmail()[pri:0, instance:RegistrationUser@3c153a1]" started-at="2022-06-26T20:11:29 EET" name="RegisterUserWithExistingEmail" description="Given I&#039;m on the home Page and I Need Register A New User With Exist Email" finished-at="2022-06-26T20:11:30 EET" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUserWithExistingEmail -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:RegistrationUser@3c153a1]" started-at="2022-06-26T20:11:30 EET" name="AfterClass" finished-at="2022-06-26T20:11:31 EET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- RegistrationUser -->
+    </test> <!-- /Users/alaafawzy/IdeaProjects/Automation Ex1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

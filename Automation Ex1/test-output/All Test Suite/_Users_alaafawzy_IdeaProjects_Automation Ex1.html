@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  /Users/alaafawzy/IdeaProjects/Automation Ex1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>/Users/alaafawzy/IdeaProjects/Automation Ex1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 26 20:10:57 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>235 seconds (235516 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ContactUsForm.ContactUs()'><b>ContactUs</b><br>Test class: ContactUsForm<br>Test method: Given I'm on the home Page and I Need to Send an Inquiry through the Contact Us Page</td>
+<td></td>
+<td>3</td>
+<td>ContactUsForm@327b636c</td></tr>
+<tr>
+<td title='ProductsDeals.VerifyAllProductsAndProductDetailPage()'><b>VerifyAllProductsAndProductDetailPage</b><br>Test class: ProductsDeals<br>Test method: Given I'm on the home Page and I Need to Navigate to All Products Page , Then I Need To view the Details of the first product and Check that the details is displayed</td>
+<td></td>
+<td>15</td>
+<td>ProductsDeals@6ab7a896</td></tr>
+<tr>
+<td title='RegistrationUser.RegisterUserWithExistingEmail()'><b>RegisterUserWithExistingEmail</b><br>Test class: RegistrationUser<br>Test method: Given I'm on the home Page and I Need Register A New User With Exist Email</td>
+<td></td>
+<td>1</td>
+<td>RegistrationUser@3c153a1</td></tr>
+<tr>
+<td title='ProductsDeals.PlaceOrderRegisterWhileCheckout()'><b>PlaceOrderRegisterWhileCheckout</b><br>Test class: ProductsDeals<br>Test method: Given I'm on the home Page and I Need to Navigate to All Products Page ,Then I Need To add the First Product  ,Then Register New Account While I Proceed To Check out After I submitted the order I will download the invoice and verify that it is downloaded successfully</td>
+<td></td>
+<td>53</td>
+<td>ProductsDeals@6ab7a896</td></tr>
+<tr>
+<td title='ProductsDeals.VerifyAddProductsInCart()'><b>VerifyAddProductsInCart</b><br>Test class: ProductsDeals<br>Test method: Given I'm on the home Page and I Need to Navigate to All Products Page , Then I Need To add the First and Second Product , Then I Need to View cart page to verify the details are correct</td>
+<td></td>
+<td>36</td>
+<td>ProductsDeals@6ab7a896</td></tr>
+<tr>
+<td title='Login.LoginUserWithIncorrectEmailAndPassword()'><b>LoginUserWithIncorrectEmailAndPassword</b><br>Test class: Login<br>Test method: Given I'm on the home Page and I Need Login User With Incorrect Email And Password Then Check the System will deny that <br>Parameters: olmahmoud489@gmail.com, 10A10</td>
+<td></td>
+<td>1</td>
+<td>Login@15761df8</td></tr>
+<tr>
+<td title='ProductsDeals.PlaceOrderLoginBeforeCheckout()'><b>PlaceOrderLoginBeforeCheckout</b><br>Test class: ProductsDeals<br>Test method: Given I'm on the home Page and I Need to Navigate to All Products Page ,Then I Need To add the First Product  ,Then Login To my account While I Proceed To Check out After I submitted the order I will download the invoice and verify that it is downloaded successfully</td>
+<td></td>
+<td>31</td>
+<td>ProductsDeals@6ab7a896</td></tr>
+<tr>
+<td title='RegistrationUser.RegisterNewUser()'><b>RegisterNewUser</b><br>Test class: RegistrationUser<br>Test method: Given I'm on the home Page and I Need Register A New User</td>
+<td></td>
+<td>18</td>
+<td>RegistrationUser@3c153a1</td></tr>
+<tr>
+<td title='Login.LoginUserWithIncorrectEmailAndPassword()'><b>LoginUserWithIncorrectEmailAndPassword</b><br>Test class: Login<br>Test method: Given I'm on the home Page and I Need Login User With Incorrect Email And Password Then Check the System will deny that <br>Parameters: a498@gmail.com, 101010A</td>
+<td></td>
+<td>1</td>
+<td>Login@15761df8</td></tr>
+<tr>
+<td title='ProductsDeals.VerifyProductQuantityInCart()'><b>VerifyProductQuantityInCart</b><br>Test class: ProductsDeals<br>Test method: Given I'm on the home Page and I Need to Navigate to All Products Page ,Then I Need To add 4 items from the Second Product  , Then I Need to View cart page to verify the Product's quantity is correct</td>
+<td></td>
+<td>15</td>
+<td>ProductsDeals@6ab7a896</td></tr>
+<tr>
+<td title='Login.LoginUserWithCorrectEmailAndPassword()'><b>LoginUserWithCorrectEmailAndPassword</b><br>Test class: Login<br>Test method: Given I'm on the home Page and I Need Login User With Correct Email And Password<br>Parameters: dd489@gmail.com, 101010A</td>
+<td></td>
+<td>6</td>
+<td>Login@15761df8</td></tr>
+<tr>
+<td title='Login.LoginUserWithCorrectEmailAndPassword()'><b>LoginUserWithCorrectEmailAndPassword</b><br>Test class: Login<br>Test method: Given I'm on the home Page and I Need Login User With Correct Email And Password<br>Parameters: d489@gmail.com, 101010A</td>
+<td></td>
+<td>5</td>
+<td>Login@15761df8</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/alaafawzy/IdeaProjects/Automation Ex1">
+        <classes>
+            <class name="RegistrationUser">
+                <methods>
+                    <include name="RegisterNewUser"/>
+                    <include name="RegisterUserWithExistingEmail"/>
+                </methods>
+            </class>
+            <class name="Login">
+                <methods>
+                    <include name="LoginUserWithCorrectEmailAndPassword"/>
+                    <include name="LoginUserWithIncorrectEmailAndPassword"/>
+                </methods>
+            </class>
+            <class name="ProductsDeals">
+                <methods>
+                    <include name="VerifyAllProductsAndProductDetailPage"/>
+                    <include name="VerifyProductQuantityInCart"/>
+                    <include name="VerifyAddProductsInCart"/>
+                    <include name="PlaceOrderRegisterWhileCheckout"/>
+                    <include name="PlaceOrderLoginBeforeCheckout"/>
+                </methods>
+            </class>
+            <class name="ContactUsForm">
+                <methods>
+                    <include name="ContactUs"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
